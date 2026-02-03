@@ -33,6 +33,7 @@ This guide explains how to set up and run the Voxscribe backend after cloning th
 5. **Run the backend service**
    ```bash
    uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+   uvicorn main:app --host 0.0.0.0 --port 8000 --reload
    ```
 
 6. **Verify the service is running**

@@ -3,8 +3,8 @@
 import { useEffect, useState, useRef, useMemo } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { motion } from "framer-motion"
-import Header from "@/app/components/header"
-import { getAudioFile } from "@/app/utils/audioStorage"
+import Header from "../../../components/header"
+import { getAudioFile } from "../../utils/audioStorage"
 
 type Word = {
   text: string

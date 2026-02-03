@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
-import { storeAudioFile } from "@/app/utils/audioStorage"
+import { storeAudioFile } from "../../utils/audioStorage"
 
 const LANGUAGES = [
   { code: "en", label: "English", flag: "🇺🇸" },
