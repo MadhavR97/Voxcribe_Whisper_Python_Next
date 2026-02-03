@@ -8,7 +8,7 @@ FFMPEG_EXE = shutil.which("ffmpeg")
 if not FFMPEG_EXE:
     raise RuntimeError("ffmpeg not found")
 
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 
 def convert_to_wav(input_path: str) -> str:
