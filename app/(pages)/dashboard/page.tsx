@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import Header from "../../components/header"
+import Header from "../../../components/header"
 
 type VoxFile = {
   id: string
