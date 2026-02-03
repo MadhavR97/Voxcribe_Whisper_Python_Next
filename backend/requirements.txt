@@ -3,6 +3,12 @@
 fastapi
 uvicorn
 openai-whisper
+
+# CPU-only torch (NO CUDA)
 torch==2.2.2+cpu
+
+# CRITICAL: Whisper + Torch require NumPy 1.x
+numpy<2
+
 ffmpeg-python
 python-multipart
